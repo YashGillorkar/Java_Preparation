@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgramming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/LargestArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SecondLargestArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SumOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/SwapNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/AlphabetNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterCaseToggle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterInputFromUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterToASCII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/OccurrencesOfCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/Questions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/ValidIdentifierCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/String_Programs/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/String_Programs/ReverseString.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Wc2dUBrEHDpt5sxR9fpz9EbkWz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OccurrencesOfCharacter">
+    <configuration name="CharacterCaseToggle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterCaseToggle" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Character_Class_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterInputFromUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterInputFromUser" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Character_Class_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OccurrencesOfCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.OccurrencesOfCharacter" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Character_Class_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidIdentifierCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.ValidIdentifierCharacter" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Character_Class_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interviewQ.Character_Class_Programs.CharacterToASCII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterToASCII" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Character_Class_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OccurrencesOfCharacter" />
+        <item itemvalue="Application.ValidIdentifierCharacter" />
+        <item itemvalue="Application.CharacterInputFromUser" />
+        <item itemvalue="Application.CharacterCaseToggle" />
+        <item itemvalue="Application.interviewQ.Character_Class_Programs.CharacterToASCII" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="" />
+      <created>1697017638124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697017638124</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
