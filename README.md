@@ -1,3 +1,5 @@
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvwqTX469CqS-xXjLY42TAwcXhJ3OnpmIRg&usqp=CAU" width="1000" height="250">
+
 # Java Preparation Repository
 
 Welcome to the "Java Preparation" repository! This repository is designed to help you prepare for Java interviews, learn Java programming concepts, and improve your Java coding skills.
