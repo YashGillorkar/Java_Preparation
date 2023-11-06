@@ -1,0 +1,306 @@
+Index: src/interviewQ/Character_Class_Programs/CharacterSortingWithoutArrays.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/interviewQ/Character_Class_Programs/CharacterSortingWithoutArrays.java b/src/interviewQ/Character_Class_Programs/CharacterSortingWithoutArrays.java
+new file mode 100644
+--- /dev/null	(date 1699256705693)
++++ b/src/interviewQ/Character_Class_Programs/CharacterSortingWithoutArrays.java	(date 1699256705693)
+@@ -0,0 +1,31 @@
++package interviewQ.Character_Class_Programs;
++
++public class CharacterSortingWithoutArrays {
++    public static void main(String[] args) {
++        // Define an array of characters to be sorted
++        char[] charArray = {'b', 'C', 'A', 'd', 'E'};
++
++        // Sort the array in alphabetical order (case-sensitive) using Bubble Sort
++        bubbleSort(charArray);
++
++        // Print the sorted characters
++        System.out.println("Sorted characters: " + new String(charArray));
++    }
++
++    public static void bubbleSort(char[] arr) {
++        int n = arr.length;
++        boolean swapped;
++        do {
++            swapped = false;
++            for (int i = 1; i < n; i++) {
++                if (arr[i - 1] > arr[i]) {
++                    // Swap arr[i-1] and arr[i]
++                    char temp = arr[i - 1];
++                    arr[i - 1] = arr[i];
++                    arr[i] = temp;
++                    swapped = true;
++                }
++            }
++        } while (swapped);
++    }
++}
+Index: src/interviewQ/Character_Class_Programs/CharacterFrequencyAnalysis.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/interviewQ/Character_Class_Programs/CharacterFrequencyAnalysis.java b/src/interviewQ/Character_Class_Programs/CharacterFrequencyAnalysis.java
+new file mode 100644
+--- /dev/null	(date 1699257700603)
++++ b/src/interviewQ/Character_Class_Programs/CharacterFrequencyAnalysis.java	(date 1699257700603)
+@@ -0,0 +1,28 @@
++package interviewQ.Character_Class_Programs;
++
++import java.util.HashMap;
++import java.util.Map;
++
++public class CharacterFrequencyAnalysis {
++    public static void main(String[] args) {
++        String inputString = "Hello, World!";
++
++        // Remove spaces and convert to lowercase for case-insensitive analysis
++        inputString = inputString.replaceAll("\\s", "").toLowerCase();
++
++        // Create a map to store character frequencies
++        Map<Character, Integer> charFrequencyMap = new HashMap<>();
++
++        // Analyze the frequency of each character
++        for (char c : inputString.toCharArray()) {
++            if (Character.isLetter(c)) { // Only analyze letters, you can modify this condition as needed
++                charFrequencyMap.put(c, charFrequencyMap.getOrDefault(c, 0) + 1);
++            }
++        }
++
++        // Display the character frequencies
++        for (Map.Entry<Character, Integer> entry : charFrequencyMap.entrySet()) {
++            System.out.println("Character: " + entry.getKey() + ", Frequency: " + entry.getValue());
++        }
++    }
++}
+Index: src/interviewQ/Character_Class_Programs/CharacterSorting.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/interviewQ/Character_Class_Programs/CharacterSorting.java b/src/interviewQ/Character_Class_Programs/CharacterSorting.java
+new file mode 100644
+--- /dev/null	(date 1699255901432)
++++ b/src/interviewQ/Character_Class_Programs/CharacterSorting.java	(date 1699255901432)
+@@ -0,0 +1,24 @@
++//Character Sorting**:
++//- Implement a Java program that sorts an array of characters in alphabetical order (considering case-insensitive sorting) using `Character` class methods.
++
++package interviewQ.Character_Class_Programs;
++
++import java.util.Arrays;
++
++public class CharacterSorting {
++    public static void main(String[] args) {
++
++        char[] charArray = {'b', 'C', 'A', 'd', 'E'};
++        System.out.println("Unsorted characters: " + Arrays.toString(charArray));
++        for (int i = 0; i < charArray.length; i++) {
++            charArray[i] = Character.toLowerCase(charArray[i]);
++        }
++        // Sort the array in alphabetical order (case-sensitive) no need of converting to upper or lower case
++        // Arrays.sort(charArray);  the order will be [numbers, upper-case, lower-case]
++
++        Arrays.sort(charArray);
++        System.out.println("Sorted characters: " + Arrays.toString(charArray));
++
++    }
++}
++
+Index: src/interviewQ/Character_Class_Programs/CharacterExtraction.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/interviewQ/Character_Class_Programs/CharacterExtraction.java b/src/interviewQ/Character_Class_Programs/CharacterExtraction.java
+new file mode 100644
+--- /dev/null	(date 1699259046653)
++++ b/src/interviewQ/Character_Class_Programs/CharacterExtraction.java	(date 1699259046653)
+@@ -0,0 +1,16 @@
++//**Character Extraction**:
++//-Write a Java program to extract all the digits from a given string and compute their sum using `Character` class methods.
++
++package interviewQ.Character_Class_Programs;
++
++public class CharacterExtraction {
++    public static void main(String[] args) {
++        String input = "Y4a5s8h5";
++        int sum = 0;
++        for (int i = 0; i <= input.length()-1; i++) {
++            if (Character.isDigit(input.charAt(i)))
++                sum = sum + Character.getNumericValue(input.charAt(i));
++        }
++        System.out.println("Sum of the digits in the string is: "+sum);
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9ec74c1d-d441-4ae7-96f0-a3be6d422742\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/JavaProgramming.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Array_Programs/LargestArrayElement.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Array_Programs/SecondLargestArray.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Array_Programs/SumOfArray.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Factorial.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/FibonacciSeries.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Prime.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/SumOfDigits.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/SwapNumber.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/AlphabetNumbers.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterCaseToggle.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterInputFromUser.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterToASCII.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/OccurrencesOfCharacter.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/Questions\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/ValidIdentifierCharacter.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/String_Programs/Palindrome.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/interviewQ/String_Programs/ReverseString.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Wc2dUBrEHDpt5sxR9fpz9EbkWz\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.Mappings\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\mkgil\\IdeaProjects\\JavaProgramming\\src\\interviewQ\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.OccurrencesOfCharacter\">\r\n    <configuration name=\"CharacterCaseToggle\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"interviewQ.Character_Class_Programs.CharacterCaseToggle\" />\r\n      <module name=\"JavaProgramming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"interviewQ.Character_Class_Programs.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CharacterInputFromUser\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"interviewQ.Character_Class_Programs.CharacterInputFromUser\" />\r\n      <module name=\"JavaProgramming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"interviewQ.Character_Class_Programs.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"OccurrencesOfCharacter\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"interviewQ.Character_Class_Programs.OccurrencesOfCharacter\" />\r\n      <module name=\"JavaProgramming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"interviewQ.Character_Class_Programs.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ValidIdentifierCharacter\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"interviewQ.Character_Class_Programs.ValidIdentifierCharacter\" />\r\n      <module name=\"JavaProgramming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"interviewQ.Character_Class_Programs.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"interviewQ.Character_Class_Programs.CharacterToASCII\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"interviewQ.Character_Class_Programs.CharacterToASCII\" />\r\n      <module name=\"JavaProgramming\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"interviewQ.Character_Class_Programs.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.OccurrencesOfCharacter\" />\r\n        <item itemvalue=\"Application.ValidIdentifierCharacter\" />\r\n        <item itemvalue=\"Application.CharacterInputFromUser\" />\r\n        <item itemvalue=\"Application.CharacterCaseToggle\" />\r\n        <item itemvalue=\"Application.interviewQ.Character_Class_Programs.CharacterToASCII\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"9ec74c1d-d441-4ae7-96f0-a3be6d422742\" name=\"Changes\" comment=\"\" />\r\n      <created>1697017638124</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1697017638124</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 71068b8eb6a48c601dcbc178e91cc754b2366625)
++++ b/.idea/workspace.xml	(date 1699259026869)
+@@ -1,31 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/JavaProgramming.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/LargestArrayElement.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SecondLargestArray.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SumOfArray.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Factorial.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/FibonacciSeries.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Prime.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/SumOfDigits.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/SwapNumber.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/AlphabetNumbers.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterCaseToggle.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterInputFromUser.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterToASCII.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/OccurrencesOfCharacter.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/Questions" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/ValidIdentifierCharacter.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/String_Programs/Palindrome.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/interviewQ/String_Programs/ReverseString.java" afterDir="false" />
++    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="adding files">
++      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterExtraction.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterFrequencyAnalysis.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterSorting.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterSortingWithoutArrays.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -53,22 +34,22 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.OccurrencesOfCharacter">
+-    <configuration name="CharacterCaseToggle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterCaseToggle" />
++  <component name="RunManager" selected="Application.CharacterExtraction">
++    <configuration name="AlphabetNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.AlphabetNumbers" />
+       <module name="JavaProgramming" />
+       <extension name="coverage">
+         <pattern>
+@@ -80,8 +61,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="CharacterInputFromUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterInputFromUser" />
++    <configuration name="CharacterExtraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterExtraction" />
+       <module name="JavaProgramming" />
+       <extension name="coverage">
+         <pattern>
+@@ -93,8 +74,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="OccurrencesOfCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.OccurrencesOfCharacter" />
++    <configuration name="CharacterFrequencyAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterFrequencyAnalysis" />
+       <module name="JavaProgramming" />
+       <extension name="coverage">
+         <pattern>
+@@ -106,8 +87,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ValidIdentifierCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.ValidIdentifierCharacter" />
++    <configuration name="CharacterSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterSorting" />
+       <module name="JavaProgramming" />
+       <extension name="coverage">
+         <pattern>
+@@ -119,8 +100,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="interviewQ.Character_Class_Programs.CharacterToASCII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterToASCII" />
++    <configuration name="CharacterSortingWithoutArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterSortingWithoutArrays" />
+       <module name="JavaProgramming" />
+       <extension name="coverage">
+         <pattern>
+@@ -134,11 +115,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.OccurrencesOfCharacter" />
+-        <item itemvalue="Application.ValidIdentifierCharacter" />
+-        <item itemvalue="Application.CharacterInputFromUser" />
+-        <item itemvalue="Application.CharacterCaseToggle" />
+-        <item itemvalue="Application.interviewQ.Character_Class_Programs.CharacterToASCII" />
++        <item itemvalue="Application.CharacterExtraction" />
++        <item itemvalue="Application.CharacterFrequencyAnalysis" />
++        <item itemvalue="Application.CharacterSortingWithoutArrays" />
++        <item itemvalue="Application.CharacterSorting" />
++        <item itemvalue="Application.AlphabetNumbers" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -151,6 +132,14 @@
+       <option name="presentableId" value="Default" />
+       <updated>1697017638124</updated>
+     </task>
++    <task id="LOCAL-00001" summary="adding files">
++      <created>1699179896057</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1699179896058</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -164,4 +153,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="adding files" />
++    <option name="LAST_COMMIT_MESSAGE" value="adding files" />
++  </component>
+ </project>
+\ No newline at end of file

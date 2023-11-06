@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgramming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/LargestArrayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SecondLargestArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SumOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/FibonacciSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/SwapNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/AlphabetNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterCaseToggle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterInputFromUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterToASCII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/OccurrencesOfCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/Questions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/ValidIdentifierCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/String_Programs/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/String_Programs/ReverseString.java" afterDir="false" />
+    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="adding programs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +30,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OccurrencesOfCharacter">
-    <configuration name="CharacterCaseToggle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterCaseToggle" />
+  <component name="RunManager" selected="Application.AlphabetNumbers">
+    <configuration name="AlphabetNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.AlphabetNumbers" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterInputFromUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterInputFromUser" />
+    <configuration name="CharacterExtraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterExtraction" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccurrencesOfCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.OccurrencesOfCharacter" />
+    <configuration name="CharacterFrequencyAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterFrequencyAnalysis" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidIdentifierCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.ValidIdentifierCharacter" />
+    <configuration name="CharacterSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterSorting" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interviewQ.Character_Class_Programs.CharacterToASCII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterToASCII" />
+    <configuration name="CharacterSortingWithoutArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterSortingWithoutArrays" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OccurrencesOfCharacter" />
-        <item itemvalue="Application.ValidIdentifierCharacter" />
-        <item itemvalue="Application.CharacterInputFromUser" />
-        <item itemvalue="Application.CharacterCaseToggle" />
-        <item itemvalue="Application.interviewQ.Character_Class_Programs.CharacterToASCII" />
+        <item itemvalue="Application.AlphabetNumbers" />
+        <item itemvalue="Application.CharacterExtraction" />
+        <item itemvalue="Application.CharacterFrequencyAnalysis" />
+        <item itemvalue="Application.CharacterSortingWithoutArrays" />
+        <item itemvalue="Application.CharacterSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +128,21 @@
       <option name="presentableId" value="Default" />
       <updated>1697017638124</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding files">
+      <created>1699179896057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699179896058</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding programs">
+      <created>1699260714113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699260714113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,5 +155,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding files" />
+    <MESSAGE value="adding programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding programs" />
   </component>
 </project>
