@@ -1,0 +1,32 @@
+Here are the numbered programming interview questions related to `StringBuffer`:
+
+1. **Concatenate Strings:**
+   Write a program to concatenate two strings using `StringBuffer`.
+
+2. **Palindrome Check:**
+   Implement a function to check if a given string is a palindrome using `StringBuffer`.
+
+3. **Remove Duplicates:**
+   Write a program to remove duplicate characters from a string using `StringBuffer`.
+
+4. **Word Reversal:**
+   Given a sentence, reverse the order of words using `StringBuffer`. For example, "Hello World" becomes "World Hello".
+
+5. **String Compression:**
+   Implement a function to perform basic string compression using the counts of repeated characters. For example, the string "aabcccccaaa" would become "a2b1c5a3".
+
+6. **String Rotation:**
+   Write a function to check if one string is a rotation of another using `StringBuffer`. For example, "waterbottle" is a rotation of "erbottlewat".
+
+7. **String to Integer Conversion:**
+   Implement a function to convert a string representing an integer to an actual integer using `StringBuffer`.
+
+8. **Alternate Characters:**
+   Given a string, rearrange the characters such that no two adjacent characters are the same using `StringBuffer`.
+
+9. **Substring Removal:**
+   Write a program to remove a specified substring from a given string using `StringBuffer`.
+
+10. **String Permutation:**
+    Implement a function to check if two strings are permutations of each other using `StringBuffer`.
+
