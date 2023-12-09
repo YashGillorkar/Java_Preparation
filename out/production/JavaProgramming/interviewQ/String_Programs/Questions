@@ -1,0 +1,50 @@
+
+1. **Reverse a String**:
+ Write a Java program to reverse a given string without using built-in functions.
+
+2. **Check for Palindrome**
+ Develop a Java program to check if a given string is a palindrome. A palindrome reads the same forwards and backward.
+
+3. **Count Vowels and Consonants**:
+ Create a Java program to count the number of vowels and consonants in a given string.
+
+4. **String Anagrams**:
+ Write a Java program to check if two strings are anagrams of each other. An anagram is a word or phrase formed by rearranging the letters of another.
+
+5. **Remove Duplicate Characters**:
+ Develop a Java program to remove duplicate characters from a string without using additional data structures.
+
+6. **String Compression**:
+ Write a Java program to perform basic string compression using the counts of repeated characters. For example, "aaabbbccc" becomes "a3b3c3".
+
+7. **Check for Substring**:
+ Create a Java program to check if one string is a substring of another.
+
+8. **String Rotation**:
+ Write a Java program to check if one string is a rotation of another. For example, "waterbottle" is a rotation of "erbottlewat."
+
+9. **String Reversal in Words**:
+ Develop a Java program to reverse the words in a given string while maintaining the word order.
+
+10. **Longest Palindromic Substring**:
+ Write a Java program to find the longest palindromic substring in a given string.
+
+11. **String Permutations**:
+ Create a Java program to generate all permutations of a given string.
+
+12. **Count Words in a String**:
+ Write a Java program to count the number of words in a given string.
+
+13. **Check for Pangram**:
+ Develop a Java program to check if a given string is a pangram. A pangram is a sentence that contains every letter of the alphabet at least once.
+
+14. **String Concatenation**:
+ Write a Java program to concatenate two strings without using the `+` operator.
+
+15. **Most Common Character**:
+ Create a Java program to find the most common character in a given string.
+
+16. **Remove Whitespace**:
+ Develop a Java program to remove all whitespace from a string.
+
+These questions cover a range of string manipulation tasks and are commonly used to assess a candidate's understanding of Java strings and problem-solving skills. Depending on the job position and the level of experience, the complexity of the questions may vary. It's important to practice these questions and understand string manipulation concepts to perform well in Java interviews.

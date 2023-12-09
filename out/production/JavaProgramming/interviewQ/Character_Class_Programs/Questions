@@ -1,0 +1,32 @@
+
+1. **Character Conversion**:
+   - Write a Java program that converts a given character to its ASCII value and vice versa using the `Character` class.
+
+2. **Character Case Handling**:
+   - Implement a Java program to toggle the case (uppercase to lowercase and vice versa) of a character using `Character` class methods.
+
+3. **Character Validation**:
+   - Create a Java program to validate if a character is a valid Java identifier part character (e.g., for variable names) using `Character` class methods.
+
+4. **Character Count**:
+   - Write a Java program that counts the occurrences of a specific character in a given string using `Character` class methods.
+
+5. **Character Sorting**:
+   - Implement a Java program that sorts an array of characters in alphabetical order (considering case-insensitive sorting) using `Character` class methods.
+
+6. **Character Frequency Analysis**:
+   - Create a Java program that analyzes the frequency of each character in a given string using the `Character` class.
+
+7. **Character Extraction**:
+   - Write a Java program to extract all the digits from a given string and compute their sum using `Character` class methods.
+
+8. **Character Palindrome Check**:
+   - Develop a Java program to check if a given string is a palindrome (reads the same forwards and backwards) while ignoring spaces, punctuation, and case. Utilize `Character` class methods for character manipulation.
+
+9. **Character Encoding and Decoding**:
+   - Design a Java program to encode a message using a simple character substitution cipher, and then decode it. Utilize the `Character` class to perform character substitutions.
+
+10. **Character Filtering**:
+    - Write a Java program that filters out non-alphabetic characters from a given string using the `Character` class.
+
+These questions cover a wide range of tasks related to character manipulation and handling in Java. They can be used to assess a candidate's ability to work with characters, strings, and the `Character` class effectively.
