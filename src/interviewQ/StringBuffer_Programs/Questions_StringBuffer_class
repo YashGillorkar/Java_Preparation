@@ -25,8 +25,8 @@ Here are the numbered programming interview questions related to `StringBuffer`:
    Given a string, rearrange the characters such that no two adjacent characters are the same using `StringBuffer`.
 
 9. **Substring Removal:**
-   Write a program to remove a specified substring from a given string using `StringBuffer`.
+   Write a program to remove a specified substring from a given string using `StringBuffer.
 
 10. **String Permutation:**
-    Implement a function to check if two strings are permutations of each other using `StringBuffer`.
+    Implement a function to check if two strings are permutations of each other using `StringBuffer.
 

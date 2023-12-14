@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="StringBuffer Programs">
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/StringBuffer_Programs/StringRotationChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/TakeInputs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/StringBuffer_Programs/StringToIntegerConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interviewQ/StringBuffer_Programs/Questions_StringBuffer_class" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/StringBuffer_Programs/Questions_StringBuffer_class" afterDir="false" />
     </list>
@@ -43,6 +44,8 @@
     "Application.ConcatenateString.executor": "Run",
     "Application.PalindromeCheck.executor": "Run",
     "Application.StringRotationChecker.executor": "Run",
+    "Application.StringToInterger.executor": "Run",
+    "Application.TakeInputs.executor": "Run",
     "Application.WordReversal.executor": "Run",
     "Application.interviewQ.StringBuffer_Programs.StringRotationChecker.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -52,7 +55,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mkgil/IdeaProjects/JavaProgramming",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,39 +63,39 @@
       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.interviewQ.StringBuffer_Programs.StringRotationChecker">
-    <configuration name="ConcatenateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.StringBuffer_Programs.ConcatenateString" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQ.StringBuffer_Programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.StringBuffer_Programs.PalindromeCheck" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQ.StringBuffer_Programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TakeInputs">
     <configuration name="StringRotationChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQ.String_Programs.StringRotationChecker" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interviewQ.String_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringToIntegerConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.StringBuffer_Programs.StringToIntegerConverter" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.StringBuffer_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TakeInputs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.TakeInputs" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TakeInputs" />
+        <item itemvalue="Application.StringToIntegerConverter" />
         <item itemvalue="Application.interviewQ.StringBuffer_Programs.StringRotationChecker" />
         <item itemvalue="Application.StringRotationChecker" />
         <item itemvalue="Application.WordReversal" />
-        <item itemvalue="Application.PalindromeCheck" />
-        <item itemvalue="Application.ConcatenateString" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702148652030</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="StringBuffer Programs">
+      <option name="closed" value="true" />
+      <created>1702302701064</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702302701064</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
