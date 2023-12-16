@@ -11,10 +11,12 @@ public class SecondLargestArray {
                 largest = arr[i];
         }
         System.out.println("Largest Element in the array is :- " + largest);
+        int index = 0;
         int[] second = new int[arr.length - 1];
         for (int i = 0; i < second.length; i++) {
             if (arr[i] != largest)
-                second[i] = arr[i];
+                second[index] = arr[i];
+            index++;
         }
         return second;
     }
