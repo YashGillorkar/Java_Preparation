@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="Programs">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Array_Programs/TakeInputs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Basic_JavaPrograms/CountDigits.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Basic_JavaPrograms/PrimeNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/StringBuffer_Programs/ConcatenateString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/StringBuffer_Programs/CountVowels.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/StringBuffer_Programs/PalindromeCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/StringBuffer_Programs/Questions_StringBuffer_class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/StringBuffer_Programs/StringRotationChecker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/StringBuffer_Programs/StringToIntegerConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/StringBuffer_Programs/WordReversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/CountDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Basic_JavaPrograms/Concatenation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/String_Programs/StringLength.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Basic_JavaPrograms/Concatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/String_Programs/StringLengthCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Array_Programs/SecondLargestArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Array_Programs/SecondLargestArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SecondLargestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SecondLargestArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +43,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ConcatenateString.executor": "Run",
+    "Application.Concatenation.executor": "Run",
+    "Application.Concatination.executor": "Run",
     "Application.CountDigits.executor": "Run",
     "Application.PalindromeCheck.executor": "Run",
     "Application.PrimeNumbers.executor": "Run",
     "Application.SecondLargestArray.executor": "Run",
+    "Application.StringLength.executor": "Run",
     "Application.StringRotationChecker.executor": "Run",
     "Application.StringToInterger.executor": "Run",
     "Application.TakeInputs.executor": "Run",
@@ -77,7 +70,20 @@
       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumbers">
+  <component name="RunManager" selected="Application.StringLengthCalculator">
+    <configuration name="Concatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Basic_JavaPrograms.Concatenation" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Basic_JavaPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQ.Basic_JavaPrograms.CountDigits" />
       <module name="JavaProgramming" />
@@ -117,25 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToIntegerConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.StringBuffer_Programs.StringToIntegerConverter" />
+    <configuration name="StringLengthCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.String_Programs.StringLengthCalculator" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.StringBuffer_Programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TakeInputs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.TakeInputs" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
+          <option name="PATTERN" value="interviewQ.String_Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringLengthCalculator" />
+        <item itemvalue="Application.Concatenation" />
         <item itemvalue="Application.PrimeNumbers" />
         <item itemvalue="Application.CountDigits" />
         <item itemvalue="Application.SecondLargestArray" />
-        <item itemvalue="Application.TakeInputs" />
-        <item itemvalue="Application.StringToIntegerConverter" />
       </list>
     </recent_temporary>
   </component>
