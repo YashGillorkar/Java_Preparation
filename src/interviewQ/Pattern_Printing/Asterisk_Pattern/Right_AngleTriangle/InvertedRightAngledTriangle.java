@@ -7,7 +7,7 @@
    *
  */
 
-package interviewQ.Pattern_Printing.Asterisk_Pattern;
+package interviewQ.Pattern_Printing.Asterisk_Pattern.Right_AngleTriangle;
 
 public class InvertedRightAngledTriangle {
 

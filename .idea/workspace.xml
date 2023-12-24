@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="Programs">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Asterisk_Pattern/InvertedRightAngledTriangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Asterisk_Pattern/Pyramid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Asterisk_Pattern/RightAngledTriangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Asterisk_Pattern/SquarePattern.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/First.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Second.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Third.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Questions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/SimpleExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/InvertedRightAngledTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/RightAngledTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/SquarePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Third.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Questions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/SimpleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/Right_AngleTriangle/InvertedRightAngleTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/Right_AngleTriangle/RightAngledTriangle_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Fifth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Sixth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/String_Programs/StringLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/String_Programs/StringLengthCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Third.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Third.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/InvertedRightAngledTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/Right_AngleTriangle/InvertedRightAngledTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/RightAngledTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/Right_AngleTriangle/RightAngledTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,50 +44,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ConcatenateString.executor": "Run",
-    "Application.Concatenation.executor": "Run",
-    "Application.Concatination.executor": "Run",
-    "Application.CountDigits.executor": "Run",
-    "Application.First.executor": "Run",
-    "Application.InvertedRightAngledTriangle.executor": "Debug",
-    "Application.PalindromeCheck.executor": "Run",
-    "Application.Pattern1.executor": "Run",
-    "Application.PrimeNumbers.executor": "Run",
-    "Application.Second.executor": "Run",
-    "Application.SecondLargestArray.executor": "Run",
-    "Application.SimpleExample.executor": "Run",
-    "Application.SquarePattern.executor": "Run",
-    "Application.StringLength.executor": "Run",
-    "Application.StringRotationChecker.executor": "Run",
-    "Application.StringToInterger.executor": "Run",
-    "Application.TakeInputs.executor": "Run",
-    "Application.Third.executor": "Run",
-    "Application.WordReversal.executor": "Run",
-    "Application.interviewQ.StringBuffer_Programs.StringRotationChecker.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mkgil/IdeaProjects/JavaProgramming",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConcatenateString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Concatenation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Concatination.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fifth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.First.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fourth.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InvertedRightAngleTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvertedRightAngledTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pattern1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Second.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargestArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sixth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquarePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringRotationChecker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringToInterger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TakeInputs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Third.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordReversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.interviewQ.StringBuffer_Programs.StringRotationChecker.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mkgil/IdeaProjects/JavaProgramming&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Third">
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.First" />
+  <component name="RunManager" selected="Application.RightAngledTriangle_1">
+    <configuration name="Fifth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Fifth" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interviewQ.Pattern_Printing.Numbers_Pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvertedRightAngleTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Asterisk_Pattern.Right_AngleTriangle.InvertedRightAngleTriangle" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Pattern_Printing.Asterisk_Pattern.Right_AngleTriangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="InvertedRightAngledTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Asterisk_Pattern.InvertedRightAngledTriangle" />
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Asterisk_Pattern.Right_AngleTriangle.InvertedRightAngledTriangle" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Asterisk_Pattern.*" />
+          <option name="PATTERN" value="interviewQ.Pattern_Printing.Asterisk_Pattern.Right_AngleTriangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Second" />
+    <configuration name="RightAngledTriangle_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Asterisk_Pattern.Right_AngleTriangle.RightAngledTriangle_1" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Numbers_Pattern.*" />
+          <option name="PATTERN" value="interviewQ.Pattern_Printing.Asterisk_Pattern.Right_AngleTriangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,21 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquarePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Asterisk_Pattern.SquarePattern" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Asterisk_Pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Third" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Third" />
+    <configuration name="Sixth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Sixth" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Third" />
-        <item itemvalue="Application.Second" />
-        <item itemvalue="Application.First" />
+        <item itemvalue="Application.RightAngledTriangle_1" />
+        <item itemvalue="Application.Sixth" />
+        <item itemvalue="Application.InvertedRightAngleTriangle" />
         <item itemvalue="Application.InvertedRightAngledTriangle" />
-        <item itemvalue="Application.SquarePattern" />
+        <item itemvalue="Application.Fifth" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +323,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702872015726</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Programs">
+      <option name="closed" value="true" />
+      <created>1702922441880</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702922441880</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Programs">
+      <option name="closed" value="true" />
+      <created>1703272625265</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1703272625265</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
