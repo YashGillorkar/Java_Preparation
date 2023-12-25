@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="Programs">
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Eighth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Ninth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Pyramid_Tenth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Seventh.java" afterDir="false" />
+    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="Pattern Printing Programs">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Eleventh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Fifteenth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Fourteenth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Thirteenth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Try.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Twelfth_two_halves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Asterisk_Pattern/Right_AngleTriangle/RightAngledTriangle_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Asterisk_Pattern/Right_AngleTriangle/RightAngledTriangle_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Asterisk_Pattern/Pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Pyramid_Tenth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Pyramid_Tenth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Tenth_Pyramid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +53,11 @@
     "Application.Concatination.executor": "Run",
     "Application.CountDigits.executor": "Run",
     "Application.Eighth.executor": "Run",
+    "Application.Eleventh.executor": "Run",
+    "Application.Fifteenth.executor": "Run",
     "Application.Fifth.executor": "Run",
     "Application.First.executor": "Run",
+    "Application.Fourteenth.executor": "Run",
     "Application.Fourth.executor": "Debug",
     "Application.InvertedRightAngleTriangle.executor": "Run",
     "Application.InvertedRightAngledTriangle.executor": "Run",
@@ -73,6 +79,10 @@
     "Application.StringToInterger.executor": "Run",
     "Application.TakeInputs.executor": "Run",
     "Application.Third.executor": "Run",
+    "Application.Thirteenth.executor": "Run",
+    "Application.Try.executor": "Run",
+    "Application.Twelfth.executor": "Run",
+    "Application.Twelfth_two_halves.executor": "Run",
     "Application.WordReversal.executor": "Run",
     "Application.interviewQ.StringBuffer_Programs.StringRotationChecker.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -90,9 +100,9 @@
       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pyramid">
-    <configuration name="Eighth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Eighth" />
+  <component name="RunManager" selected="Application.Fifteenth">
+    <configuration name="Fifteenth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Fifteenth" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ninth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Ninth" />
+    <configuration name="Fourteenth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Fourteenth" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -117,21 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Asterisk_Pattern.Pyramid" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Asterisk_Pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pyramid_Tenth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Pyramid_Tenth" />
+    <configuration name="Thirteenth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Thirteenth" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +140,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seventh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Seventh" />
+    <configuration name="Try" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Try" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Pattern_Printing.Numbers_Pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Twelfth_two_halves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Twelfth_two_halves" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pyramid" />
-        <item itemvalue="Application.Pyramid_Tenth" />
-        <item itemvalue="Application.Ninth" />
-        <item itemvalue="Application.Eighth" />
-        <item itemvalue="Application.Seventh" />
+        <item itemvalue="Application.Fifteenth" />
+        <item itemvalue="Application.Try" />
+        <item itemvalue="Application.Fourteenth" />
+        <item itemvalue="Application.Thirteenth" />
+        <item itemvalue="Application.Twelfth_two_halves" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703440121521</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Pattern Printing Programs">
+      <option name="closed" value="true" />
+      <created>1703441964043</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1703441964043</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,6 +393,7 @@
     <MESSAGE value="String Programs" />
     <MESSAGE value="StringBuffer Programs" />
     <MESSAGE value="Programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programs" />
+    <MESSAGE value="Pattern Printing Programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pattern Printing Programs" />
   </component>
 </project>
