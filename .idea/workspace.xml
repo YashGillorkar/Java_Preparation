@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="Pattern Printing Programs">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Eleventh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Fifteenth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Fourteenth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Thirteenth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Try.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Twelfth_two_halves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/Case_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/Case_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/Case_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/Case_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/Case_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/Case_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Inheritance_Cases/Case_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Pyramid_Tenth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Pyramid_Tenth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Tenth_Pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Asterisk_Pattern/Pyramid.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +49,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.B.executor": "Run",
+    "Application.Case_1.executor": "Run",
+    "Application.Case_2.executor": "Run",
+    "Application.Case_3.executor": "Run",
+    "Application.Case_5.executor": "Run",
     "Application.ConcatenateString.executor": "Run",
     "Application.Concatenation.executor": "Run",
     "Application.Concatination.executor": "Run",
     "Application.CountDigits.executor": "Run",
+    "Application.DiamondPattern.executor": "Run",
     "Application.Eighth.executor": "Run",
     "Application.Eleventh.executor": "Run",
     "Application.Fifteenth.executor": "Run",
@@ -59,6 +66,7 @@
     "Application.First.executor": "Run",
     "Application.Fourteenth.executor": "Run",
     "Application.Fourth.executor": "Debug",
+    "Application.HollowSquare.executor": "Run",
     "Application.InvertedRightAngleTriangle.executor": "Run",
     "Application.InvertedRightAngledTriangle.executor": "Run",
     "Application.Ninth.executor": "Run",
@@ -66,6 +74,7 @@
     "Application.Pattern1.executor": "Run",
     "Application.PrimeNumbers.executor": "Run",
     "Application.Pyramid.executor": "Run",
+    "Application.Pyramid_2.executor": "Run",
     "Application.Pyramid_Tenth.executor": "Run",
     "Application.RightAngledTriangle_1.executor": "Run",
     "Application.Second.executor": "Run",
@@ -100,13 +109,13 @@
       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fifteenth">
-    <configuration name="Fifteenth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Fifteenth" />
+  <component name="RunManager" selected="Application.Case_7">
+    <configuration name="Case_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Inheritance_Cases.Case_1" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Numbers_Pattern.*" />
+          <option name="PATTERN" value="interviewQ.Inheritance_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fourteenth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Fourteenth" />
+    <configuration name="Case_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Inheritance_Cases.Case_2" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Numbers_Pattern.*" />
+          <option name="PATTERN" value="interviewQ.Inheritance_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thirteenth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Thirteenth" />
+    <configuration name="Case_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Inheritance_Cases.Case_3" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Numbers_Pattern.*" />
+          <option name="PATTERN" value="interviewQ.Inheritance_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Try" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Try" />
+    <configuration name="Case_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Inheritance_Cases.Case_5" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Numbers_Pattern.*" />
+          <option name="PATTERN" value="interviewQ.Inheritance_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Twelfth_two_halves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Pattern_Printing.Numbers_Pattern.Twelfth_two_halves" />
+    <configuration name="Case_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Inheritance_Cases.Case_7" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Pattern_Printing.Numbers_Pattern.*" />
+          <option name="PATTERN" value="interviewQ.Inheritance_Cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fifteenth" />
-        <item itemvalue="Application.Try" />
-        <item itemvalue="Application.Fourteenth" />
-        <item itemvalue="Application.Thirteenth" />
-        <item itemvalue="Application.Twelfth_two_halves" />
+        <item itemvalue="Application.Case_7" />
+        <item itemvalue="Application.Case_5" />
+        <item itemvalue="Application.Case_3" />
+        <item itemvalue="Application.Case_2" />
+        <item itemvalue="Application.Case_1" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +379,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703441964043</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Pattern Printing Programs">
+      <option name="closed" value="true" />
+      <created>1703523326417</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1703523326417</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Pattern Printing Programs">
+      <option name="closed" value="true" />
+      <created>1703525624759</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703525624759</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
