@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="Inheritance Cases">
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Character_Class_Programs/CharacterExtraction_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Polymorphism/OverLoading/NarrowingA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Polymorphism/OverLoading/NarrowingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/CountUniqueElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SortAscending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SortDescending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/TypeCasting/ExplicitCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/TypeCasting/ImplicitCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceProgram/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Try.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Try.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Polymorphism/OverLoading/NarrowingA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Polymorphism/OverLoading/NarrowingA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Polymorphism/OverLoading/NarrowingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Polymorphism/OverLoading/NarrowingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Try.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Try.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +62,23 @@
     "Application.Case_5.executor": "Run",
     "Application.Case_7.executor": "Run",
     "Application.CharacterExtraction_2.executor": "Run",
+    "Application.CharacterFrequencyAnalysis.executor": "Run",
     "Application.ConcatenateString.executor": "Run",
     "Application.Concatenation.executor": "Run",
     "Application.Concatination.executor": "Run",
     "Application.CountDigits.executor": "Run",
+    "Application.CountUniqueElements.executor": "Run",
     "Application.DiamondPattern.executor": "Run",
     "Application.Eighth.executor": "Run",
     "Application.Eleventh.executor": "Run",
+    "Application.ExplicitCasting.executor": "Run",
     "Application.Fifteenth.executor": "Run",
     "Application.Fifth.executor": "Run",
     "Application.First.executor": "Run",
     "Application.Fourteenth.executor": "Run",
     "Application.Fourth.executor": "Debug",
     "Application.HollowSquare.executor": "Run",
+    "Application.ImplicitCasting.executor": "Run",
     "Application.InvertedRightAngleTriangle.executor": "Run",
     "Application.InvertedRightAngledTriangle.executor": "Run",
     "Application.NarrowingTest.executor": "Run",
@@ -72,17 +89,26 @@
     "Application.Pyramid.executor": "Run",
     "Application.Pyramid_2.executor": "Run",
     "Application.Pyramid_Tenth.executor": "Run",
+    "Application.Que1.executor": "Run",
+    "Application.Que2.executor": "Run",
+    "Application.Que3.executor": "Run",
+    "Application.Que4.executor": "Run",
+    "Application.Que5.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
     "Application.RightAngledTriangle_1.executor": "Run",
     "Application.Second.executor": "Run",
     "Application.SecondLargestArray.executor": "Run",
     "Application.Seventh.executor": "Run",
     "Application.SimpleExample.executor": "Run",
     "Application.Sixth.executor": "Run",
+    "Application.SortAscending.executor": "Run",
+    "Application.SortDescending.executor": "Run",
     "Application.SquarePattern.executor": "Run",
     "Application.StringLength.executor": "Run",
     "Application.StringRotationChecker.executor": "Run",
     "Application.StringToInterger.executor": "Run",
     "Application.TakeInputs.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.Third.executor": "Run",
     "Application.Thirteenth.executor": "Run",
     "Application.Try.executor": "Run",
@@ -105,13 +131,13 @@
       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NarrowingTest">
-    <configuration name="Case_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Inheritance_Cases.Case_3" />
+  <component name="RunManager" selected="Application.RemoveDuplicates">
+    <configuration name="CountUniqueElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.CountUniqueElements" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Inheritance_Cases.*" />
+          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Case_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Inheritance_Cases.Case_5" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.RemoveDuplicates" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Inheritance_Cases.*" />
+          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Case_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Inheritance_Cases.Case_7" />
+    <configuration name="SortAscending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.SortAscending" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Inheritance_Cases.*" />
+          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterExtraction_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Character_Class_Programs.CharacterExtraction_2" />
+    <configuration name="SortDescending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.SortDescending" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Character_Class_Programs.*" />
+          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NarrowingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Polymorphism.OverLoading.NarrowingTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceProgram.Test" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQ.Polymorphism.OverLoading.*" />
+          <option name="PATTERN" value="practiceProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NarrowingTest" />
-        <item itemvalue="Application.CharacterExtraction_2" />
-        <item itemvalue="Application.Case_7" />
-        <item itemvalue="Application.Case_5" />
-        <item itemvalue="Application.Case_3" />
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.CountUniqueElements" />
+        <item itemvalue="Application.SortDescending" />
+        <item itemvalue="Application.SortAscending" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703653866493</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Inheritance Cases">
+      <option name="closed" value="true" />
+      <created>1703737853371</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703737853371</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
