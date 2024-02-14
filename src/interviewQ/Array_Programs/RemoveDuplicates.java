@@ -20,7 +20,7 @@ public class RemoveDuplicates {
 
     public int[] modifiedArray(int[] originalArray, int uniqueCnt) {
         int index = 0;
-        int arr[] = new int[uniqueCnt];
+        int[] arr = new int[uniqueCnt];
         for (int i = 0; i < originalArray.length; i++) {
             boolean isDuplicate = false;
             // Check for duplicates in the new array

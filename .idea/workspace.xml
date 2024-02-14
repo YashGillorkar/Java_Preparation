@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment="Inheritance Cases">
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/CountUniqueElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SortAscending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/SortDescending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/TypeCasting/ExplicitCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQ/TypeCasting/ImplicitCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceProgram/String/Que5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceProgram/Test.java" afterDir="false" />
+    <list default="true" id="9ec74c1d-d441-4ae7-96f0-a3be6d422742" name="Changes" comment=" .">
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/DeleteElementSingleOccurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/DeleteMultipleOccurrencesOfElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Try.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Pattern_Printing/Numbers_Pattern/Try.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Polymorphism/OverLoading/NarrowingA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Polymorphism/OverLoading/NarrowingA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Polymorphism/OverLoading/NarrowingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/interviewQ/Polymorphism/OverLoading/NarrowingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Try.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Pattern_Printing/Numbers_Pattern/Try.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQ/Array_Programs/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQ/Array_Programs/RemoveDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +55,7 @@
     "Application.Concatination.executor": "Run",
     "Application.CountDigits.executor": "Run",
     "Application.CountUniqueElements.executor": "Run",
+    "Application.DeleteMultipleOccurrencesOfElements.executor": "Run",
     "Application.DiamondPattern.executor": "Run",
     "Application.Eighth.executor": "Run",
     "Application.Eleventh.executor": "Run",
@@ -131,9 +119,35 @@
       <recent name="C:\Users\mkgil\IdeaProjects\JavaProgramming\src\interviewQ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.DeleteElementSingleOccurrences">
     <configuration name="CountUniqueElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.CountUniqueElements" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteElementSingleOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.DeleteElementSingleOccurrences" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteMultipleOccurrencesOfElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.DeleteMultipleOccurrencesOfElements" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -158,19 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortAscending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.SortAscending" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQ.Array_Programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortDescending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQ.Array_Programs.SortDescending" />
       <module name="JavaProgramming" />
@@ -184,26 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceProgram.Test" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practiceProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteElementSingleOccurrences" />
+        <item itemvalue="Application.DeleteMultipleOccurrencesOfElements" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.CountUniqueElements" />
         <item itemvalue="Application.SortDescending" />
-        <item itemvalue="Application.SortAscending" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703737853371</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=" .">
+      <option name="closed" value="true" />
+      <created>1707838892067</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707838892067</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,6 +454,7 @@
     <MESSAGE value="Programs" />
     <MESSAGE value="Pattern Printing Programs" />
     <MESSAGE value="Inheritance Cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance Cases" />
+    <MESSAGE value=" ." />
+    <option name="LAST_COMMIT_MESSAGE" value=" ." />
   </component>
 </project>
